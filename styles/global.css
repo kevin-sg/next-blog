@@ -1,0 +1,60 @@
+/* Goggle Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Dark Mode */
+:root {
+	--background-color: #212f3d;
+	--link-color: #f1c40f;
+	--text-color: #f2f3f4;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	font-family: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--background-color);
+	font-family: "Poppins", sans-serif;
+	color: var(--text-color);
+	transition: background-color 500ms ease;
+}
+
+/* Global Config */
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+p {
+	font-size: 1.5rem;
+}
+a {
+	color: var(--link-color);
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+button {
+	background-color: var(--text-color);
+	color: var(--background-color);
+}
+
+.container {
+	max-width: 120rem;
+	width: 90%;
+	margin: 0 auto;
+}
